@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1118</width>
+    <height>893</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_7">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>720</width>
+        <height>520</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(115, 72, 52);</string>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <property name="minimumSize">
+        <size>
+         <width>1090</width>
+         <height>743</height>
+        </size>
+       </property>
+       <attribute name="title">
+        <string>Любимое Д/З</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="spacing">
+           <number>65</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <property name="spacing">
+             <number>15</number>
+            </property>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_2">
+              <property name="spacing">
+               <number>15</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame">
+                <property name="minimumSize">
+                 <size>
+                  <width>650</width>
+                  <height>600</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(249, 132, 229);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_6">
+                 <item row="0" column="0">
+                  <spacer name="horizontalSpacer_5">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeType">
+                    <enum>QSizePolicy::Fixed</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>48</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="1">
+                  <widget class="QLabel" name="label_4">
+                   <property name="font">
+                    <font>
+                     <family>Ink Free</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Предмет</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <spacer name="horizontalSpacer_6">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>148</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QLabel" name="label_5">
+                   <property name="font">
+                    <font>
+                     <family>Ink Free</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Задание</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="4">
+                  <spacer name="horizontalSpacer_7">
+                   <property name="orientation">
+                    <enum>Qt::Horizontal</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>126</width>
+                     <height>20</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                 <item row="0" column="5">
+                  <widget class="QLabel" name="label_6">
+                   <property name="font">
+                    <font>
+                     <family>Ink Free</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Дата</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="6">
+                  <widget class="QLabel" name="label_7">
+                   <property name="font">
+                    <font>
+                     <family>Ink Free</family>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Сделано?</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="0" colspan="7">
+                  <layout class="QGridLayout" name="gridLayout_3">
+                   <property name="spacing">
+                    <number>25</number>
+                   </property>
+                   <item row="0" column="0">
+                    <widget class="QLabel" name="label_8">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="1">
+                    <widget class="QComboBox" name="comboBox_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QLineEdit" name="lineEdit_1"/>
+                   </item>
+                   <item row="0" column="3">
+                    <widget class="QDateEdit" name="dateEdit_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="4">
+                    <widget class="QCheckBox" name="checkBox_1">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="0">
+                    <widget class="QLabel" name="label_9">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QComboBox" name="comboBox_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="1" column="2">
+                    <widget class="QLineEdit" name="lineEdit_2"/>
+                   </item>
+                   <item row="1" column="3">
+                    <widget class="QDateEdit" name="dateEdit_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="4">
+                    <widget class="QCheckBox" name="checkBox_2">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="0">
+                    <widget class="QLabel" name="label_10">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>3</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="1">
+                    <widget class="QComboBox" name="comboBox_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="2" column="2">
+                    <widget class="QLineEdit" name="lineEdit_3"/>
+                   </item>
+                   <item row="2" column="3">
+                    <widget class="QDateEdit" name="dateEdit_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="4">
+                    <widget class="QCheckBox" name="checkBox_3">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="0">
+                    <widget class="QLabel" name="label_11">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>4</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="1">
+                    <widget class="QComboBox" name="comboBox_4">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="3" column="2">
+                    <widget class="QLineEdit" name="lineEdit_4"/>
+                   </item>
+                   <item row="3" column="3">
+                    <widget class="QDateEdit" name="dateEdit_4">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="3" column="4">
+                    <widget class="QCheckBox" name="checkBox_4">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="0">
+                    <widget class="QLabel" name="label_12">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>5</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="1">
+                    <widget class="QComboBox" name="comboBox_5">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="4" column="2">
+                    <widget class="QLineEdit" name="lineEdit_5"/>
+                   </item>
+                   <item row="4" column="3">
+                    <widget class="QDateEdit" name="dateEdit_5">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="4" column="4">
+                    <widget class="QCheckBox" name="checkBox_5">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="0">
+                    <widget class="QLabel" name="label_13">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>6</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="1">
+                    <widget class="QComboBox" name="comboBox_6">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="5" column="2">
+                    <widget class="QLineEdit" name="lineEdit_6"/>
+                   </item>
+                   <item row="5" column="3">
+                    <widget class="QDateEdit" name="dateEdit_6">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="5" column="4">
+                    <widget class="QCheckBox" name="checkBox_6">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="6" column="0">
+                    <widget class="QLabel" name="label_14">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>7</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="6" column="1">
+                    <widget class="QComboBox" name="comboBox_7">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="6" column="2">
+                    <widget class="QLineEdit" name="lineEdit_7"/>
+                   </item>
+                   <item row="6" column="3">
+                    <widget class="QDateEdit" name="dateEdit_7">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="6" column="4">
+                    <widget class="QCheckBox" name="checkBox_7">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="0">
+                    <widget class="QLabel" name="label_15">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>8</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="1">
+                    <widget class="QComboBox" name="comboBox_8">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="7" column="2">
+                    <widget class="QLineEdit" name="lineEdit_8"/>
+                   </item>
+                   <item row="7" column="3">
+                    <widget class="QDateEdit" name="dateEdit_8">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="7" column="4">
+                    <widget class="QCheckBox" name="checkBox_8">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="8" column="0">
+                    <widget class="QLabel" name="label_16">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>9</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="8" column="1">
+                    <widget class="QComboBox" name="comboBox_9">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="8" column="2">
+                    <widget class="QLineEdit" name="lineEdit_9"/>
+                   </item>
+                   <item row="8" column="3">
+                    <widget class="QDateEdit" name="dateEdit_9">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="8" column="4">
+                    <widget class="QCheckBox" name="checkBox_9">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="9" column="0">
+                    <widget class="QLabel" name="label_17">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>10</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="9" column="1">
+                    <widget class="QComboBox" name="comboBox_10">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="9" column="2">
+                    <widget class="QLineEdit" name="lineEdit_10"/>
+                   </item>
+                   <item row="9" column="3">
+                    <widget class="QDateEdit" name="dateEdit_10">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="9" column="4">
+                    <widget class="QCheckBox" name="checkBox_10">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="10" column="0">
+                    <widget class="QLabel" name="label_18">
+                     <property name="minimumSize">
+                      <size>
+                       <width>16</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>11</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="10" column="1">
+                    <widget class="QComboBox" name="comboBox_11">
+                     <property name="minimumSize">
+                      <size>
+                       <width>90</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                     <item>
+                      <property name="text">
+                       <string>Алгебра</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Английский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Биология</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>География</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Геометрия</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Информатика</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>История</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Общество</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Русский</string>
+                      </property>
+                     </item>
+                     <item>
+                      <property name="text">
+                       <string>Физика</string>
+                      </property>
+                     </item>
+                    </widget>
+                   </item>
+                   <item row="10" column="2">
+                    <widget class="QLineEdit" name="lineEdit_11"/>
+                   </item>
+                   <item row="10" column="3">
+                    <widget class="QDateEdit" name="dateEdit_11">
+                     <property name="minimumSize">
+                      <size>
+                       <width>88</width>
+                       <height>22</height>
+                      </size>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="10" column="4">
+                    <widget class="QCheckBox" name="checkBox_11">
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="labe_complite">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 15pt &quot;Ink Free&quot;;
+color: rgb(255, 228, 196)</string>
+                </property>
+                <property name="text">
+                 <string>Завершено: 0</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <property name="spacing">
+                 <number>60</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="save_dz_btn">
+                  <property name="minimumSize">
+                   <size>
+                    <width>160</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ink Free</family>
+                    <pointsize>10</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(212, 147, 117);</string>
+                  </property>
+                  <property name="text">
+                   <string>Сохранить</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="delete_dz_btn">
+                  <property name="minimumSize">
+                   <size>
+                    <width>160</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ink Free</family>
+                    <pointsize>10</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(212, 147, 117);</string>
+                  </property>
+                  <property name="text">
+                   <string>Удалить задачу</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="delete_complete_dz_btn">
+                  <property name="minimumSize">
+                   <size>
+                    <width>160</width>
+                    <height>50</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Ink Free</family>
+                    <pointsize>10</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(212, 147, 117);</string>
+                  </property>
+                  <property name="text">
+                   <string>Удалить сделанные</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout">
+            <property name="spacing">
+             <number>40</number>
+            </property>
+            <item>
+             <widget class="QFrame" name="frame_2">
+              <property name="minimumSize">
+               <size>
+                <width>350</width>
+                <height>350</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 228, 196);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_4">
+               <item row="0" column="0">
+                <layout class="QVBoxLayout" name="verticalLayout_4">
+                 <property name="spacing">
+                  <number>20</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>280</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Ink Free</family>
+                     <pointsize>15</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Задания на завтра:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QListWidget" name="listWidget_tomorrow">
+                   <property name="minimumSize">
+                    <size>
+                     <width>310</width>
+                     <height>210</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_3">
+                   <property name="spacing">
+                    <number>20</number>
+                   </property>
+                   <item>
+                    <spacer name="horizontalSpacer">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="refresh_tomorrow_dz_btn">
+                     <property name="minimumSize">
+                      <size>
+                       <width>130</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>16777215</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Ink Free</family>
+                       <pointsize>10</pointsize>
+                       <weight>75</weight>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="layoutDirection">
+                      <enum>Qt::LeftToRight</enum>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(212, 147, 117);</string>
+                     </property>
+                     <property name="text">
+                      <string>Обновить</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_2">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+            <item>
+             <widget class="QFrame" name="frame_3">
+              <property name="minimumSize">
+               <size>
+                <width>350</width>
+                <height>350</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 228, 196);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QGridLayout" name="gridLayout_5">
+               <item row="0" column="0">
+                <layout class="QVBoxLayout" name="verticalLayout_5">
+                 <property name="spacing">
+                  <number>10</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>280</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <family>Ink Free</family>
+                     <pointsize>15</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Не сделано:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="comboBox_subject">
+                   <property name="minimumSize">
+                    <size>
+                     <width>280</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                   <item>
+                    <property name="text">
+                     <string>Алгебра</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Английский</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Биология</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>География</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Геометрия</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Информатика</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>История</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Общество</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Русский</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Физика</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QListWidget" name="listWidget_undo">
+                   <property name="minimumSize">
+                    <size>
+                     <width>310</width>
+                     <height>160</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_4">
+                   <property name="spacing">
+                    <number>20</number>
+                   </property>
+                   <item>
+                    <spacer name="horizontalSpacer_3">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="refresh_undo_dz_btn">
+                     <property name="minimumSize">
+                      <size>
+                       <width>130</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>3842343</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Ink Free</family>
+                       <pointsize>10</pointsize>
+                       <weight>75</weight>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(212, 147, 117);</string>
+                     </property>
+                     <property name="text">
+                      <string>Обновить</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_4">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Статистика успеваемости</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="horizontalLayout_15">
+          <property name="spacing">
+           <number>35</number>
+          </property>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_11">
+            <property name="spacing">
+             <number>30</number>
+            </property>
+            <item>
+             <widget class="QFrame" name="frame_5">
+              <property name="minimumSize">
+               <size>
+                <width>290</width>
+                <height>370</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(249, 132, 229);</string>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <widget class="QRadioButton" name="radioButton_4">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>139</y>
+                 <width>117</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>География</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_3">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>106</y>
+                 <width>105</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Биология</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_25">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>1</y>
+                 <width>222</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>15</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true"/>
+               </property>
+               <property name="text">
+                <string>Выберите предмет:</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_1">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>40</y>
+                 <width>96</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Алгебра</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_2">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>73</y>
+                 <width>125</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Английский</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_5">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>172</y>
+                 <width>113</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Геометрия</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_6">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>205</y>
+                 <width>140</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Информатика</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_7">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>238</y>
+                 <width>94</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>История</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_8">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>271</y>
+                 <width>108</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Общество</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_9">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>304</y>
+                 <width>92</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Русский</string>
+               </property>
+              </widget>
+              <widget class="QRadioButton" name="radioButton_10">
+               <property name="geometry">
+                <rect>
+                 <x>1</x>
+                 <y>337</y>
+                 <width>90</width>
+                 <height>25</height>
+                </rect>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Ink Free</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="text">
+                <string>Физика</string>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="picture_china_kot">
+              <property name="minimumSize">
+               <size>
+                <width>290</width>
+                <height>280</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>china_kot.png</pixmap>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <property name="spacing">
+             <number>30</number>
+            </property>
+            <item>
+             <widget class="PlotWidget" name="graphicsView">
+              <property name="minimumSize">
+               <size>
+                <width>720</width>
+                <height>520</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(255, 228, 196);</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_14">
+              <property name="spacing">
+               <number>15</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_27">
+                <property name="minimumSize">
+                 <size>
+                  <width>120</width>
+                  <height>130</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_12">
+                <property name="spacing">
+                 <number>20</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_12">
+                  <property name="spacing">
+                   <number>40</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="build_graf_btn">
+                    <property name="minimumSize">
+                     <size>
+                      <width>200</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Ink Free</family>
+                      <pointsize>10</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(212, 147, 117);</string>
+                    </property>
+                    <property name="text">
+                     <string>Построить график</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="delete_all_marks_btn">
+                    <property name="minimumSize">
+                     <size>
+                      <width>200</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Ink Free</family>
+                      <pointsize>10</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(212, 147, 117);</string>
+                    </property>
+                    <property name="text">
+                     <string>Удалить все оценки</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_13">
+                  <property name="spacing">
+                   <number>20</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_24">
+                    <property name="minimumSize">
+                     <size>
+                      <width>50</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="add_change_mark_btn">
+                    <property name="minimumSize">
+                     <size>
+                      <width>300</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <family>Ink Free</family>
+                      <pointsize>10</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(212, 147, 117);</string>
+                    </property>
+                    <property name="text">
+                     <string>Добавить/изменить оценку</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_26">
+                    <property name="minimumSize">
+                     <size>
+                      <width>50</width>
+                      <height>50</height>
+                     </size>
+                    </property>
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_28">
+                <property name="minimumSize">
+                 <size>
+                  <width>120</width>
+                  <height>130</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>Кто эти люди?</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_9">
+        <item row="0" column="0">
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <property name="spacing">
+           <number>25</number>
+          </property>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <property name="spacing">
+             <number>30</number>
+            </property>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_7">
+              <property name="spacing">
+               <number>20</number>
+              </property>
+              <item>
+               <widget class="QPushButton" name="add_friend_btn">
+                <property name="minimumSize">
+                 <size>
+                  <width>300</width>
+                  <height>40</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Ink Free</family>
+                  <pointsize>10</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(212, 147, 117);</string>
+                </property>
+                <property name="text">
+                 <string>Добавить одноклассника</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_4">
+                <property name="minimumSize">
+                 <size>
+                  <width>440</width>
+                  <height>220</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(249, 132, 229);</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QGridLayout" name="gridLayout">
+                 <item row="0" column="0">
+                  <layout class="QVBoxLayout" name="verticalLayout_6">
+                   <property name="spacing">
+                    <number>20</number>
+                   </property>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_5">
+                     <property name="spacing">
+                      <number>15</number>
+                     </property>
+                     <item>
+                      <widget class="QLabel" name="label_19">
+                       <property name="font">
+                        <font>
+                         <family>Ink Free</family>
+                         <pointsize>15</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>ФИО:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="lineEdit_fio">
+                       <property name="minimumSize">
+                        <size>
+                         <width>330</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Ink Free</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_6">
+                     <property name="spacing">
+                      <number>21</number>
+                     </property>
+                     <item>
+                      <widget class="QLabel" name="label_20">
+                       <property name="font">
+                        <font>
+                         <family>Ink Free</family>
+                         <pointsize>15</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>Телефон:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="lineEdit_phone">
+                       <property name="minimumSize">
+                        <size>
+                         <width>280</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Ink Free</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_7">
+                     <property name="spacing">
+                      <number>20</number>
+                     </property>
+                     <item>
+                      <widget class="QLabel" name="label_21">
+                       <property name="font">
+                        <font>
+                         <family>Ink Free</family>
+                         <pointsize>15</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>ВК:</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QLineEdit" name="lineEdit_vk">
+                       <property name="minimumSize">
+                        <size>
+                         <width>350</width>
+                         <height>50</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Ink Free</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <widget class="QLabel" name="label_22">
+                <property name="font">
+                 <font>
+                  <family>Ink Free</family>
+                  <pointsize>15</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 228, 196)</string>
+                </property>
+                <property name="text">
+                 <string>Введите id человека, которого хотите удалить:</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <item>
+                 <widget class="QLabel" name="lable_picture_kot_heart">
+                  <property name="minimumSize">
+                   <size>
+                    <width>340</width>
+                    <height>250</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="pixmap">
+                   <pixmap>kot_heart.png</pixmap>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_8">
+                  <property name="spacing">
+                   <number>20</number>
+                  </property>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_9">
+                    <property name="spacing">
+                     <number>17</number>
+                    </property>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_id_friend">
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>50</height>
+                       </size>
+                      </property>
+                      <property name="maximumSize">
+                       <size>
+                        <width>50</width>
+                        <height>50</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Ink Free</family>
+                        <pointsize>15</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="toolTip">
+                       <string/>
+                      </property>
+                      <property name="layoutDirection">
+                       <enum>Qt::LeftToRight</enum>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(255, 228, 196);</string>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="delete_friend_id_btn">
+                      <property name="minimumSize">
+                       <size>
+                        <width>140</width>
+                        <height>50</height>
+                       </size>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Ink Free</family>
+                        <pointsize>10</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">background-color: rgb(212, 147, 117);</string>
+                      </property>
+                      <property name="text">
+                       <string>Удалить</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_23">
+                    <property name="text">
+                     <string/>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QTableWidget" name="tableWidget">
+            <property name="minimumSize">
+             <size>
+              <width>1040</width>
+              <height>320</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Ink Free</family>
+              <pointsize>10</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 228, 196);</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_8">
+            <property name="spacing">
+             <number>200</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="take_from_file_btn">
+              <property name="minimumSize">
+               <size>
+                <width>390</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Ink Free</family>
+                <pointsize>10</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(212, 147, 117);</string>
+              </property>
+              <property name="text">
+               <string>Загрузить список из файла</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="take_to_file_btn">
+              <property name="minimumSize">
+               <size>
+                <width>390</width>
+                <height>60</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <family>Ink Free</family>
+                <pointsize>10</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(212, 147, 117);</string>
+              </property>
+              <property name="text">
+               <string>Загрузить список в файл</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1118</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QGraphicsView</extends>
+   <header>pyqtgraph</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
